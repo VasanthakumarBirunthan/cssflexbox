@@ -1,0 +1,16 @@
+.imggallery  img{ width: 300px; height: 300px;  }
+
+.imggallery div{  color: chocolate; ;
+  }
+.imggallery { display: flex;
+    /* This makes the element a flex container,
+     meaning it can arrange its child elements in a specific way. */
+     flex-wrap: wrap;
+     /* flex wrap This allows the flex container to  
+      wrap its child elements onto multiple lines  
+      if they don't all fit on a single line. */
+justify-content: space-around; 
+ 
+
+
+}
